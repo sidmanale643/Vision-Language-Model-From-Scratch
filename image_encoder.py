@@ -58,7 +58,6 @@ class MHA(nn.Module):
         final_out = self.w_o(attention_out)
         return final_out 
 
-    
 class ImageEncoder(nn.Module):
     def __init__(self , args):
         super().__init__()
@@ -81,5 +80,7 @@ class ImageEncoder(nn.Module):
         
         return mha_out
 
-
- 
+        
+        
+        
+        
